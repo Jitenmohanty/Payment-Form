@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="styleform.css">
+</head>
+<body>
+    <form action="">
+       <header> <h1>Payment Form</h1>
+        <p>Please fill all the information in the required field *</p>
+       </header>
+        <h2>Contact Information</h2>
+        <p>Required Field Followed By *</p>
+       <div class="first"><p>Name: * <input type="text" name="name"   required></p></div> 
+        <fieldset>
+            <legend>Gender * </legend>
+        <p>
+            <label for="Male">
+            Male: <input type="radio" name="Gender"  id="Male"></label>
+            <label for="Female">  Female: <input type="radio" name="Gender"  id="Female"></label>
+
+        </p>
+    </fieldset>
+    <div class="text"><p>Address: <textarea name="address" id="address"></textarea></p></div>
+    <div class="second"><p>Email: * <input type="email" name="email" id="email"></p></div>
+    <p>Pincode: * <input type="number" name="pincode" id="pincode"></p>
+    <hr>
+    <h2>Pyment Information</h2>
+   <div class="third"><p>Card_Type:* 
+        <select name="card_type" id="card_type">
+            <option value="">--Select The Card Type</option><!--value null bcz if you take it then it do not select card type-->
+            <option value="Visa">visa</option>
+            <option value="Rupeey">rupay</option>
+            <option value="Master Card">master card</option>
+        </select>
+    </p></div> 
+ <div class="fourth">   <p>Card Number: * <input type="number" name="Cardnumber" id="Cardnumber"></p>
+    <p>Expiration Date: * <input type="date" name="exp date" id="exp_date"> </p>
+    <p>CVV: * <input type="password" name="CVV" id="CVV"></p></div>
+    <input type="submit" value="Pay Now" id="button">
+    </form>
+</body>
+</html>

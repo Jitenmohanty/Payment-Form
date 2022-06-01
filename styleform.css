@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-size: 1.5em;
+    color: darkcyan;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 2.50em;
+    color:red;
+    
+}
+header {
+    padding: 0.50em;
+    background-color: rgb(87, 215, 238);
+}
+header p{
+    text-align: center;
+    font-size: 1.25em;
+    color: rgb(224, 228, 17);
+}
+h2{
+    text-align: center;
+    color: red;
+    font-size: 1.5em;
+    
+}
+
+#button{
+    background-color: black;
+    color: chartreuse;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#button:hover{
+    
+    background-color: red;
+
+}
+.first input{
+ border: 2px solid red;
+ border-radius: 1em;
+ height: 2.75em;
+ width: 20em;
+ text-transform: uppercase;
+ font-size: medium;
+}
+.second input{
+    border: 2px solid red;
+    border-radius: 1em;
+    height: 2.75em;
+    width: 20em;
+    font-size: medium;
+   }
+#pincode{
+    border: 2px solid red;
+    border-radius: 1em;
+    height: 2.75em;
+    width: 8em;
+    font-size: medium;
+}
+#card_type{
+    border: 2px solid red;
+    border-radius: 1em;
+    height: 2.75em;
+    width: 16em;
+   }
+   
+   .third select{
+       font-size:medium;
+       text-transform: uppercase;
+   }
+   .fourth input{
+    border: 2px solid red;
+    border-radius: 1em;
+    
+   }
+   #Cardnumber{
+    height: 2.25em;
+    width: 15em;
+       font-size: medium;
+   }
+   #exp_date{
+    height: 2.75em;
+    width: 15em;
+       font-size: 0.65em;
+   }
+   #CVV{
+    height: 2.15em;
+    width: 5em;
+       font-size: medium;
+   }
+   #address{
+    border: 2px solid red;
+    border-radius: 1em;
+    height: 5em;
+    width: 11em;
+    font-size: 1.25em;
+   }
+   
+   
+   
+
